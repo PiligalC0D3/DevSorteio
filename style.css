@@ -19,11 +19,19 @@ body{
     
 }
     
-dados{
+.dados{
    width: 180px;
 }
 
-inserir{
+.inserir{
     opacity: 0,1;
     margin: 3px;
+}
+
+.botao {
+    width: 78px;
+    cursor: pointer;
+    transition: background-color 03s ease;
+    background-color: #5f87a1;
+    
 }
