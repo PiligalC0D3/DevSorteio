@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Centraliza verticalmente */
+    margin: 2;
+    background-color: black;
+    color: rgb(126, 146, 146);
+    
+}
+    
+dados{
+   width: 180px;
+}
+
+inserir{
+    opacity: 0,1;
+    margin: 3px;
+}
