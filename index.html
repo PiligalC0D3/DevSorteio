@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
 
     <title>Dev Sorteio</title>
 
-    
-
 </head>
+
 <body>
     <img src="assets/dado.gif" class="dados"> 
     <h1>Dev Sorteio</h1>
-     <h2>Sortear um número 3</h2>
-    <input class="inserir" placeholder="entre"> 
-    <input class="inserir" placeholder="e">
-    <button class="botao">Sortear</button>
+     <h2>Sortear um número </h2>
+    <input class="inserir" id="min" type="number" placeholder="entre"> 
+    <input class="inserir" id="max" type="number"  placeholder="e">
+    <button class="botao" onclick="gerarNúmero()">Sortear</button>
+
+    <p id="resultado">O número aparece aqui</p>
     
+    <script src="script.js"> </script>
 </body>
 </html>
